@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'OpenSans';
+    background-color: #efeff2;
+}
+.container {
+    max-width: 585px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+button {
+    transform: scale(1);
+    border: none;
+    cursor: pointer;
+    background-color: unset;
+    transition: 0.3s;
+    &:active{
+        transform: scale(0.9);
+    }
+}
+input {
+    border: none;
+    outline: none;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
